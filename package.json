@@ -1,0 +1,22 @@
+{
+  "name": "red-contrib-helloworld",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "node.js",
+  "node-red": {
+    "nodes": {
+      "lower-case": "node.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "kmiura",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  }
+}
